@@ -47,8 +47,7 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
     @Resource
     private RedissonClient redissonClient;
 
-    @Resource
-    private StringRedisTemplate stringRedisTemplate;
+
 
     private IVoucherOrderService proxy;
 
